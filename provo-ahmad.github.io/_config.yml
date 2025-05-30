@@ -1,0 +1,39 @@
+title: "Ahmad's Cybersecurity Blog"
+description: "CTF writeups, red team notes, and security tools"
+url: "https://provo-ahmad.github.io"
+baseurl: ""
+theme: "mmistakes/minimal-mistakes"
+
+author:
+  ahmad:
+    name: "Ahmad Badghaish"
+    bio: "Cybersecurity guy. CTF enjoyer. Pentester on weekends."
+    location: "Riyadh, KSA"
+    links:
+      - label: "GitHub"
+        icon: "fab fa-github"
+        url: "https://github.com/provo-ahmad"
+      - label: "LinkedIn"
+        icon: "fab fa-linkedin"
+        url: "https://linkedin.com/in/provo-ahmad"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: /page:num/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author: ahmad
+      read_time: true
+      comments: false
+      share: true
+      related: true
