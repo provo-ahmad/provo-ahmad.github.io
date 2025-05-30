@@ -20,6 +20,7 @@ author:
 plugins:
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-remote-theme # Add this if not already there, essential for remote_theme
 
 paginate: 5
 paginate_path: /page:num/
