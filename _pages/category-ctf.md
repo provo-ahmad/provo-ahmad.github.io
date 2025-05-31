@@ -1,8 +1,10 @@
 ---
-title: CTF Writeups
+title: "CTF Writeups"
 layout: category
 permalink: /categories/ctf/
 taxonomy: ctf
+classes: wide
+author_profile: true
 ---
 
 Detailed writeups of various Capture The Flag (CTF) challenges, including:
