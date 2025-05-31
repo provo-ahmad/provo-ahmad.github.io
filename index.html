@@ -1,33 +1,29 @@
 ---
 layout: home
 author_profile: true
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/cat.jpeg
-excerpt: "Welcome to my cybersecurity blog where I share CTF writeups, security research, and more"
-intro: 
-  - excerpt: 'Follow my journey through cybersecurity challenges, research, and discoveries.'
-feature_row:
-  - image_path: /assets/images/cat.jpeg
-    title: "CTF Writeups"
-    excerpt: "Detailed solutions and methodologies for various CTF challenges."
-    url: "/categories/ctf/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/cat.jpeg
-    title: "Security Research"
-    excerpt: "In-depth analysis and findings from security research projects."
-    url: "/categories/research/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/cat.jpeg
-    title: "Tools & Scripts"
-    excerpt: "Custom security tools and automation scripts."
-    url: "/categories/tools/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+title: "provo_ahmad hacks stuff"
+excerpt: "CTF solutions, malware analysis, security research, and more"
 ---
+
+{% include header.html %}
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Latest Posts</h2>
+        <div class="archive__item-excerpt">
+          Recent writeups, research findings, and security tools
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% include feature_row id="intro" type="center" %}
 
