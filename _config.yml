@@ -59,12 +59,16 @@ plugins:
 
 author:
   name   : "provo_ahmad"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/cat.jpeg"
   bio    : "Cybersecurity Enthusiast"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/provo_ahmad"
+
+# Site Icon
+site_icon: "/assets/images/cat.jpeg"
+favicon: "/assets/images/cat.jpeg"
 
 footer:
   links:
